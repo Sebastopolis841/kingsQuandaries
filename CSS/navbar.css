@@ -1,0 +1,21 @@
+#main {
+	margin-top: 50px;
+}
+
+#nav1 {
+	overflow: scroll;
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	display: flex;
+}
+
+#nav1 p {
+	color: red;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+}
