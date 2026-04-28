@@ -13,6 +13,10 @@ dice = dice.replace(" ", "").lower()
 
 def addNumbers():
     global total
+    global dieAmount
+    if dieAmount == '':
+        dieAmount = "1"
+
     for i in range(int(dieAmount)):
         total += randint(1,int(dieValue))
 
